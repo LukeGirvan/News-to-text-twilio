@@ -2,7 +2,7 @@
 This project automates the process of retrieving news headlines from a specified website and sending them as SMS alerts using the Twilio API. By running this Python script, you can receive daily news updates at a scheduled time without manual intervention.
 
 # How It Works
--Web Scraping: The script employs the Selenium library to scrape news headlines from a chosen news website. Although the provided example scrapes headlines from Sky News, you can easily customize it to scrape from your preferred news source.
+-Web Scraping: The script employs the Selenium library to scrape news headlines from the Sky News website.
 
 -Twilio API Integration: This project integrates with the Twilio API, a powerful cloud communications platform, to send SMS messages. To enable this functionality, you must provide your Twilio Account SID, Auth Token, Twilio phone number, and your own phone number.
 
