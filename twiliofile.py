@@ -5,10 +5,10 @@ from twilio.rest import Client
 import time
 import schedule
 # Replace with relevant info where needed
-account_sid = "AC0f780e98bb0cb577686c19303bcacd7c"
-auth_token = "97a4dd83bc267abd0bdf3c8189458c4f"
-twilio_phone_number = '+447897020871'
-your_phone_number = '07949335747'
+account_sid = "twilio account sid"
+auth_token = "twilio auth token"
+twilio_phone_number = '+twilio phone num'
+your_phone_number = 'enter your phone number'
 
 # Initialize the Twilio client
 client = Client(account_sid, auth_token)
